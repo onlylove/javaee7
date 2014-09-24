@@ -51,6 +51,7 @@
 	</profiles>
 
   <modules>
-  <modules><project></project></modules>  <module>ollo</module>
+	<module>apollo</module>
+    <module>ejb</module>
   </modules>
 </project>
