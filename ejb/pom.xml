@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.chenzr.javaee</groupId>
+		<artifactId>javaee7</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+	<groupId>com.chenzr.javaee</groupId>
+	<artifactId>ejb</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<name>ejb</name>
+	<url>http://maven.apache.org</url>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-dbcp</groupId>
+			<artifactId>commons-dbcp</artifactId>
+			<version>1.4</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.alibaba.druid</groupId>
+			<artifactId>druid-wrapper</artifactId>
+			<version>0.2.9</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.tomcat</groupId>
+			<artifactId>tomcat-jdbc</artifactId>
+			<version>8.0.12</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.tomcat</groupId>
+			<artifactId>tomcat-catalina</artifactId>
+			<version>8.0.12</version>
+		</dependency>
+
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.32</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-jndi</artifactId>
+			<version>9.2.3.v20140905</version>
+		</dependency>
+		<!-- <dependency> <groupId>org.jboss.as</groupId> <artifactId>jboss-as-naming</artifactId> 
+			<version>7.2.0.Final</version> </dependency> -->
+
+		<dependency>
+			<groupId>org.wildfly</groupId>
+			<artifactId>wildfly-naming</artifactId>
+			<version>8.1.0.Final</version>
+		</dependency>
+
+		<!-- <dependency> <groupId>org.jboss.jbossas</groupId> <artifactId>jboss-as-naming</artifactId> 
+			<version>5.0.0.Beta4</version> </dependency> -->
+
+	</dependencies>
+</project>
